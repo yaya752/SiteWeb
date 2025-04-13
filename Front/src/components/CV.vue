@@ -1,4 +1,5 @@
 <template>
+  <div class="vue">
   <div class="p-6 max-w-4xl mx-auto">
     <h1 class="text-4xl font-bold mb-6">Mon CV</h1>
 
@@ -35,8 +36,29 @@
       </div>
     </section>
   </div>
+</div>
 </template>
 
 <script setup>
 // Aucune logique nécessaire ici
 </script>
+<style scoped>
+.vue{
+  background: black;
+    color: limegreen;
+    padding: 1rem;
+    height: 50vh;
+    width: 50vw;
+    font-family: monospace;
+    
+    border-radius: 20px;
+    background-color: #000;
+    align-items: center ;
+    padding: 2rem;
+
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+
+    margin:auto;
+}
+</style>
